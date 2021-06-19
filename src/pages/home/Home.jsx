@@ -9,13 +9,12 @@ import './Home.css';
 export default function Home() {
     return (
         <>
-            <Topbar />
-            <div className="homeContainer">
-                <Sidebar />
-                <Feed />
-                <Rightbar/>
-             </div>
-            
-        </>
-    )
+      <Topbar />
+      <div className="homeContainer">
+        <Sidebar />
+        <Feed/>
+        <Rightbar/>
+      </div>
+    </>
+  );
 }

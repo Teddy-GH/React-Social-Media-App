@@ -3,7 +3,7 @@
 }
 
 .profileRight {
-  font: 9;
+  flex: 9;
 }
 .profileCover {
   height: 320px;
